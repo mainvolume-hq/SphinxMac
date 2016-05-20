@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3088F01CEF4DDB00225816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3088EF1CEF4DDB00225816 /* AppDelegate.swift */; };
+		AE3088F21CEF4DDB00225816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3088F11CEF4DDB00225816 /* ViewController.swift */; };
+		AE3088F41CEF4DDB00225816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3088F31CEF4DDB00225816 /* Assets.xcassets */; };
+		AE3088F71CEF4DDB00225816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3088F51CEF4DDB00225816 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE3088EC1CEF4DDB00225816 /* SphinxMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphinxMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3088EF1CEF4DDB00225816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE3088F11CEF4DDB00225816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3088F31CEF4DDB00225816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3088F61CEF4DDB00225816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE3088F81CEF4DDB00225816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3088E91CEF4DDB00225816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3088E31CEF4DDB00225816 = {
+			isa = PBXGroup;
+			children = (
+				AE3088EE1CEF4DDB00225816 /* SphinxMac */,
+				AE3088ED1CEF4DDB00225816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3088ED1CEF4DDB00225816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3088EC1CEF4DDB00225816 /* SphinxMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3088EE1CEF4DDB00225816 /* SphinxMac */ = {
+			isa = PBXGroup;
+			children = (
+				AE3088EF1CEF4DDB00225816 /* AppDelegate.swift */,
+				AE3088F11CEF4DDB00225816 /* ViewController.swift */,
+				AE3088F31CEF4DDB00225816 /* Assets.xcassets */,
+				AE3088F51CEF4DDB00225816 /* Main.storyboard */,
+				AE3088F81CEF4DDB00225816 /* Info.plist */,
+			);
+			path = SphinxMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3088EB1CEF4DDB00225816 /* SphinxMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3088FB1CEF4DDB00225816 /* Build configuration list for PBXNativeTarget "SphinxMac" */;
+			buildPhases = (
+				AE3088E81CEF4DDB00225816 /* Sources */,
+				AE3088E91CEF4DDB00225816 /* Frameworks */,
+				AE3088EA1CEF4DDB00225816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphinxMac;
+			productName = SphinxMac;
+			productReference = AE3088EC1CEF4DDB00225816 /* SphinxMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3088E41CEF4DDB00225816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mainvolume;
+				TargetAttributes = {
+					AE3088EB1CEF4DDB00225816 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE3088E71CEF4DDB00225816 /* Build configuration list for PBXProject "SphinxMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3088E31CEF4DDB00225816;
+			productRefGroup = AE3088ED1CEF4DDB00225816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3088EB1CEF4DDB00225816 /* SphinxMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3088EA1CEF4DDB00225816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3088F41CEF4DDB00225816 /* Assets.xcassets in Resources */,
+				AE3088F71CEF4DDB00225816 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3088E81CEF4DDB00225816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3088F21CEF4DDB00225816 /* ViewController.swift in Sources */,
+				AE3088F01CEF4DDB00225816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE3088F51CEF4DDB00225816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3088F61CEF4DDB00225816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3088F91CEF4DDB00225816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE3088FA1CEF4DDB00225816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE3088FC1CEF4DDB00225816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphinxMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.SphinxMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE3088FD1CEF4DDB00225816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphinxMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.SphinxMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3088E71CEF4DDB00225816 /* Build configuration list for PBXProject "SphinxMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3088F91CEF4DDB00225816 /* Debug */,
+				AE3088FA1CEF4DDB00225816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3088FB1CEF4DDB00225816 /* Build configuration list for PBXNativeTarget "SphinxMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3088FC1CEF4DDB00225816 /* Debug */,
+				AE3088FD1CEF4DDB00225816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3088E41CEF4DDB00225816 /* Project object */;
+}
