@@ -11,6 +11,8 @@
 		AE3088F21CEF4DDB00225816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3088F11CEF4DDB00225816 /* ViewController.swift */; };
 		AE3088F41CEF4DDB00225816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3088F31CEF4DDB00225816 /* Assets.xcassets */; };
 		AE3088F71CEF4DDB00225816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3088F51CEF4DDB00225816 /* Main.storyboard */; };
+		AE3089011CEF4E2000225816 /* pocketsphinx_continuous in Resources */ = {isa = PBXBuildFile; fileRef = AE3089001CEF4E2000225816 /* pocketsphinx_continuous */; };
+		AE3089031CEF4E2A00225816 /* en-us in Resources */ = {isa = PBXBuildFile; fileRef = AE3089021CEF4E2900225816 /* en-us */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AE3088F31CEF4DDB00225816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3088F61CEF4DDB00225816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE3088F81CEF4DDB00225816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3089001CEF4E2000225816 /* pocketsphinx_continuous */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pocketsphinx_continuous; sourceTree = "<group>"; };
+		AE3089021CEF4E2900225816 /* en-us */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-us"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		AE3088EE1CEF4DDB00225816 /* SphinxMac */ = {
 			isa = PBXGroup;
 			children = (
+				AE3089041CEF4E3600225816 /* Sphix */,
 				AE3088EF1CEF4DDB00225816 /* AppDelegate.swift */,
 				AE3088F11CEF4DDB00225816 /* ViewController.swift */,
 				AE3088F31CEF4DDB00225816 /* Assets.xcassets */,
@@ -59,6 +64,15 @@
 				AE3088F81CEF4DDB00225816 /* Info.plist */,
 			);
 			path = SphinxMac;
+			sourceTree = "<group>";
+		};
+		AE3089041CEF4E3600225816 /* Sphix */ = {
+			isa = PBXGroup;
+			children = (
+				AE3089021CEF4E2900225816 /* en-us */,
+				AE3089001CEF4E2000225816 /* pocketsphinx_continuous */,
+			);
+			name = Sphix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3089011CEF4E2000225816 /* pocketsphinx_continuous in Resources */,
+				AE3089031CEF4E2A00225816 /* en-us in Resources */,
 				AE3088F41CEF4DDB00225816 /* Assets.xcassets in Resources */,
 				AE3088F71CEF4DDB00225816 /* Main.storyboard in Resources */,
 			);
